@@ -1,0 +1,251 @@
+> ruby .\invert.rb
+Error: Missing agruments.
+Usage: ruby invert.rb <document input file name> [-stem] [-stopwords]
+
+> ruby .\invert.rb cacm.all -stem -stopwords
+
+Inverted Index Creation Time: 10.417595863342285
+
+
+> ruby .\a2.rb -stem -stopwords
+
+Enter Query: networking
+
+ 1)  GAN, a System for Generating and Analyzing Activity Networks
+     Authors: Schurmann, A.
+
+ 2)  A System for Interprocess Communication in a Resource Sharing Computer Network
+     Authors: Walden, D. C.
+
+ 3)  Simulation of a Traffic Network
+     Authors: Katz, J. H.
+
+ 4)  Checking for Loops in Networks
+     Authors: Gordon, R. M.
+
+ 5)  Optimal Program and Data Locations in Computer Networks
+     Authors: Morgan, H. L., Levin, K. D.
+
+ 6)  Scheduling Project Networks
+     Authors: Klein, M. M.
+
+ 7)  Modeling and Simulation of Digital Networks
+     Authors: Larsen, R. P., Mano, M. M.
+
+ 8)  Incompressible flow Network Calculations
+     Authors: Cantrell, H. N.
+
+ 9)  Dynamic Response Time Prediction for Computer Networks
+     Authors: Mamrak, S. A.
+
+10)  Computer Networks in Higher Education: Socio-Economic-Political Factors
+     Authors: Chambers, J. A., Poore, R. V.
+
+11)  Logic and Semantic Networks
+     Authors: Deliyanni, A., Kowalski, R.A.
+
+12)  Minimal Event-Node Network of Project Precedence Relations
+     Authors: Corneil, D. G., Gotlieb, C. C., Lee, Y. M.
+
+13)  Computer Construction of Project Networks
+     Authors: Fisher, A. C., Liebman, J. S., Nemhauser, G. L.
+
+14)  On Finding Minimum Routes in a Network With Turn Penalties
+     Authors: Caldwell, T.
+
+15)  Topological Ordering for Pert Networks (Algorithm 219)
+     Authors: Kase, R. H.
+
+16)  Evaluation of Pert Network (Algorithm 119)
+     Authors: Eisenman, B., Shapiro, M.
+
+17)  The Merit of Regional Computing Networks
+     Authors: Nielsen, N. R.
+
+18)  Topological Sorting of Large Networks
+     Authors: Kahn, A. B.
+
+19)  Transition Network Grammars for Natural Language Analysis
+     Authors: Woods, W. A.
+
+20)  Arrow to Precedence Network Transformation [H] (Algorithm A481)
+     Authors: Crandall, K. C.
+
+21)  Secure Personal Computing in an Insecure Network
+     Authors: Denning, D.E.
+
+22)  PLEXUS-An On-Line System for Modeling Neural Networks
+     Authors: Dill, J. C., Randall, D. L., Richer, I.
+
+23)  Topological Ordering of a List of Randomly-Numbered Elements of a Network
+     Authors: Lasser, D. J.
+
+24)  Computational Algorithms for Closed Queueing Networks with Exponential Servers
+     Authors: Buzen, J. P.
+
+25)  A Correctness Proof of a Topology Information Main tenance Protocol for a Distributed Computer  Network
+     Authors: Tajibnapis, W. D.
+
+     
+Enter Query: Information Retrieval and Web Search
+
+ 1)  Manipulation of Trees in Information Retrieval*
+     Authors: Salton, G.
+
+ 2)  A Survey of Languages and Systems for Information Retrieval
+     Authors: Grems, M.
+
+ 3)  File Organization: The Consecutive Retrieval Property
+     Authors: Ghosh, S. P.
+
+ 4)  Dynamic Storage Allocation for an Information Retrieval System
+     Authors: Sams, B. H.
+
+ 5)  Data Manipulation and Programming Problems in Automatic Information Retrieval
+     Authors: Salton, G.
+
+ 6)  The SMART Automatic Document Retrieval System-An Illustration
+     Authors: Salton, G., Lesk, M. E.
+
+ 7)  Randomized Binary Search Technique
+     Authors: Arora, S. R., Dent, W. T.
+
+ 8)  Information Structures for Processing and Retrieving
+     Authors: Colilla, R. A., Sams, B. H.
+
+ 9)  A Formal System for Information Retrieval from Files
+     Authors: Hsiao, D., Harary, F.
+
+10)  Everyman's Information Retrieval System
+     Authors: Whitley, V. W.
+
+11)  Dynamic Document Processing
+     Authors: Salton, G.
+
+12)  Theoretical Considerations in Information Retrieval Systems
+     Authors: Belzer, J., Goffman, W.
+
+13)  Experimental Evaluation of Information Retrieval Through a Teletypewriter
+     Authors: Rubinoff, M., Bergman, S., Franks, W., Rubinoff, E.R.
+
+14)  The Use of Normal Multiplication Tables for Information Storage and Retrieval
+     Authors: Motzkin, D.
+
+15)  Storage and Search Properties of a Tree-Organized Memory System
+     Authors: Scidmore, A. K., Weinberg, B. L.
+
+16)  Faster Retrieval from Context Trees (Corrigendum)
+     Authors: Wegbreit, B.
+
+17)  On Foster's Information Storage and Retrieval Using AVL Trees
+     Authors: Tan, K. C.
+
+18)  Interpolation Search -A Log LogN Search
+     Authors: Perl, Y., Itai, A., Avni, H.
+
+19)  A Formal System for Information Retrieval from Files
+     Authors: Hsiao, D.
+
+20)  Inefficiency of the Use of Boolean Functions for Information Retrieval Systems
+     Authors: Verhoeff, J., Goffman, W., Belzer, J.
+
+21)  An Information-Theoretic Approach to Text Searching in Direct Access Systems
+     Authors: Barton, I. J., Creasey, S. E., Lynch, M. F., Snell, M. J.
+
+22)  Design of Tree Structures for Efficient Querying
+     Authors: Casey, R. G.
+
+23)  Multidimensional Binary Search Trees Used for Associative Searching
+     Authors: Bently, J. L.
+
+24)  Randomized Binary Searching With Tree Structure
+     Authors: Clampett Jr., H. A.
+
+25)  An Information Retrieval Language for Legal Studies
+     Authors: Kehl, W. B., Horty, J. F., Bacon, C. R. T., Mitchell, D. S.
+
+     
+Enter Query: Artificial Inteligence Problems with Heuristics
+
+ 1)  A Man-Machine Approach Toward Solving the Traveling Salesman Problem
+     Authors: Krolak, P., Felts, W., Marble, G.
+
+ 2)  A Heuristic for Page Turning In a Multiprogrammed Computer
+     Authors: Weil, J. W.
+
+ 3)  Preliminary Report on a System for General Space Planning
+     Authors: Eastman, C. M.
+
+ 4)  Some Theorems to Aid in Solving the File Allocation Problem
+     Authors: Grapa, E., Belford, G. G.
+
+ 5)     A Non-heuristic Program for Proving Elementary Logical Theorems
+     Authors: Dunham, B., Fridshal, R., Sward, G. L.
+
+ 6)  On Self-Organizing Sequential Search Heuristics
+     Authors: Rivest, R.
+
+ 7)  An Application of Heuristic Search Methods to Edge and Contour Detection
+     Authors: Martelli, A.
+
+ 8)  New Methods to Color the Vertices of a Graph
+     Authors: Brelaz, D.
+
+ 9)  Optimizing Decision Trees Through Heuristically Guided Search
+     Authors: Martelli, A., Montanari, U.
+
+10)  A Global Parser for Context-Free Phrase Structure Grammars
+     Authors: Unger, S. H.
+
+11)  A Comparison of the Primal-Simplex and Primal-Dual Algorithms for Linear Programming
+     Authors: Mueller, R. K., Cooper, L.
+
+12)  A Heuristic Approach to Inductive Inference in Fact Retrieval Systems
+     Authors: Skinner, C. W.
+
+13)  Covering Edges by Cliques with Regard to Keyword Conflicts and Intersection Graphs
+     Authors: Kou, L.T., Stockmeyer, L.J., Wong, C.K., Watson, T.J.
+
+14)  A Heuristic Problem Solving Design System for Equipment or Furniture Layouts
+     Authors: Pfefferkorn, C. E.
+
+15)  Information Theory Applied to the Conversion of Decision Tables to Computer Programs
+     Authors: Ganapathy, S., Rajaraman, V.
+
+16)  An Algorithm for the Assignment Problem
+     Authors: Silver, R.
+
+17)  Documentation Problems: ALGOL 60
+     Authors: Naur, P.
+
+18)  Experiments in Automatic Learning for a Multipurpose Heuristic Program
+     Authors: Slagle, J. R., Farrell, C. D.
+
+19)  Graphic Symbols for Problem Definition and Analysis-A Standards Working Paper
+     Authors:
+
+20)  Recursive Solution of a Class Of Combinatorial Problems: An Example
+     Authors: Lynch,W. C.
+
+21)  On the Optimal Detection of Curves in Noisy Pictures
+     Authors: Montanari, U.
+
+22)  A Note on Subexpression Ordering in the Execution of Arithmetic Expressions
+     Authors: Denning, P. J., Graham, G. S.
+
+23)  A Note on the Set Basis Problem Related to the Compaction of Character Sets
+     Authors: Kou, L. T., Wong, C. K.
+
+24)  Solution of Combinatorial Problems Using Generating Functions on a Variable-Field Computer
+     Authors: Weinberg, G. M.
+
+25)  Problems in Automatic Abstracting
+     Authors: Edmundson, H. P.
+
+     
+Enter Query: notaword
+
+Query did not match any documents.
+
+
+Enter Query: ZZEND
