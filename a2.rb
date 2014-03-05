@@ -1,7 +1,7 @@
 
-require './search.rb'
-require './dictionary.rb'
-require './stemmify.rb'
+require './lib/search.rb'
+require './lib/dictionary.rb'
+require './lib/stemmify.rb'
 
 def get_stopword_list
     list = []
@@ -29,9 +29,9 @@ end
 
 @out = File.open("out.txt", "w")
 
-@filename_index = "index"
-@filename_stopwords = "common_words"
-@filename_docinfo = "doc_info"
+@filename_index = "data/index"
+@filename_docinfo = "data/doc_info"
+@filename_stopwords = "cacm/common_words"
 
 message_usage = "Usage: ruby a2.rb [-stem] [-stopwords]\n\n"
 

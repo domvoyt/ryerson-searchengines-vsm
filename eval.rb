@@ -1,7 +1,7 @@
 
-require './search.rb'
-require './dictionary.rb'
-require './stemmify.rb'
+require './lib/search.rb'
+require './lib/dictionary.rb'
+require './lib/stemmify.rb'
 
 class QueryFileInfo
 
@@ -17,7 +17,7 @@ def get_stopword_list
     list = []
     
     begin
-        File.open("common_words", "r") do |file|
+        File.open("cacm/common_words", "r") do |file|
             file.each_line { |line| list.push( line.chomp ) }
         end
     rescue
@@ -61,7 +61,7 @@ ARGV.clear
 
 # Open file query.text
 begin
-    @file_query = File.open("query.text", "r")
+    @file_query = File.open("cacm/query.text", "r")
 rescue
     puts "File 'query.text' not found.\n\n"
     exit
@@ -69,7 +69,7 @@ end
 
 # Open file qrels.txt
 begin
-    @file_qrels = File.open("qrels.text", "r")
+    @file_qrels = File.open("cacm/qrels.text", "r")
 rescue
     puts "File 'qrels.txt' not found.\n\n"
     exit

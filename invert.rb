@@ -1,8 +1,8 @@
 
 require 'benchmark'
 
-require './dictionary.rb'
-require './stemmify.rb'
+require './lib/dictionary.rb'
+require './lib/stemmify.rb'
 
 
 def extract_terms(str)
@@ -52,7 +52,7 @@ def get_stopword_list
 
     list = []
     
-    File.open("common_words", "r") do |file|
+    File.open("data/common_words", "r") do |file|
         file.each_line do |line|
             list.push( line.chomp )
         end
@@ -160,11 +160,11 @@ puts
 puts "Inverted Index Creation Time: #{time}\n\n"
 
 # serialize the inverted index to a file
-File.open("index", "wb") do |savefile|
+File.open("data/index", "wb") do |savefile|
     savefile.write( Marshal.dump( @hash ) )
 end
 
 # serialize the document information to a file
-File.open("doc_info", "wb") do |savefile|
+File.open("data/doc_info", "wb") do |savefile|
     savefile.write( Marshal.dump( @docinfo ) )
 end
