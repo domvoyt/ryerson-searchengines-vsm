@@ -1,7 +1,9 @@
 *.swp
 *.zip
 
-README.txt
 doc_info
 index
+
+README.txt
 out.txt
+eval.txt
