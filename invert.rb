@@ -53,7 +53,7 @@ def get_stopword_list
 
     list = []
     
-    File.open("data/common_words", "r") do |file|
+    File.open("cacm/common_words", "r") do |file|
         file.each_line do |line|
             list.push( line.chomp )
         end
