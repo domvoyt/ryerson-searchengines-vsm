@@ -1,5 +1,6 @@
 
 require 'benchmark'
+require 'fileutils'
 
 require './lib/dictionary.rb'
 require './lib/stemmify.rb'
@@ -158,6 +159,11 @@ end
 # print benchmark
 puts
 puts "Inverted Index Creation Time: #{time}\n\n"
+
+# create a './data' folder if it doesn't exist
+unless File.directory?("data")
+    FileUtils.mkdir_p("data")
+end
 
 # serialize the inverted index to a file
 File.open("data/index", "wb") do |savefile|
